@@ -1,0 +1,209 @@
+<body class="subpage">
+    <div id="main">
+
+        <header>
+            <div class="logo_wrapper">
+                <a href="/" class="logo">
+                    <img src="/assets/images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="top1">
+                <div class="container">
+                    <div class="row">
+                        <div class="span12">
+                            <div class="top1_inner clearfix">
+                                <div class="phone1">Need Help? Call us:
+                                    <span>1.123.456.7890</span>
+                                </div>
+                                <div class="phone2 clearfix">
+                                    <div class="txt1">Follow us:</div>
+                                    <div class="social_wrapper">
+                                        <ul class="social clearfix">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="/assets/images/social_ic1.png">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="/assets/images/social_ic2.png">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="/assets/images/social_ic3.png">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top2">
+                <div class="container">
+                    <div class="row">
+                        <div class="span12">
+                            <div class="top2_inner">
+                                <div class="navbar navbar_">
+                                    <div class="navbar-inner navbar-inner_">
+                                        <a class="btn btn-navbar btn-navbar_" data-toggle="collapse" data-target=".nav-collapse_">
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </a>
+                                        <div class="nav-collapse nav-collapse_ collapse">
+                                            <ul class="nav sf-menu clearfix">
+                                                <li>
+                                                    <a href="/">Home</a>
+                                                </li>
+                                                <li class="sub-menu sub-menu-1">
+                                                    <a href="#">Join Us
+                                                        <em></em>
+                                                    </a>
+                                                    <ul class="dropdown-menu" role="menu">
+                                                        <li>
+                                                            <a href="/customer">Create Customer Account</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/farmer">Register Farm / Organic Business</a>
+                                                        </li>
+                                                    </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div id="slider" class="clearfix">
+            <div id="camera_wrap">
+                <div data-src="/assets/images/slide1.jpg"></div>
+            </div>
+        </div>
+
+        <div id="content">
+            <div id="content2">
+
+                <div class="page_title">
+                    <div class="container">
+                        <div class="row">
+                            <div class="span12">
+                                Company
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="inner">
+                    <div id="inner2">
+                        <div class="container">
+                            <div class="row">
+                                <div class="span9">
+
+                                    <h1>Register You Farm or Organic Business</h1>
+
+                                    <div class="thumb3">
+                                        <div class="thumbnail clearfix">
+                                            <figure class="img-polaroid">
+                                                <img src="/assets/images/company01.jpg" alt="">
+                                            </figure>
+                                            <div class="caption">
+                                                <h4>
+                                                    Sign up now so customers can find you
+                                                </h4>
+                                                <div class="bot2 clearfix">
+                                                    <div class="search-form-wrapper clearfix">
+                                                        <form id="farm-reg" accept-charset="utf-8">
+                                                            <h2>Farm Details</h2>
+                                                            <input type="text" id="farm-name" name="s" value='Farm Name' onBlur="if(this.value=='') this.value='Farm Name'" onFocus="if(this.value =='Farm Name' ) this.value=''">
+                                                            <input type="text" id="farm-cont" name="s" value='Farm Contact' onBlur="if(this.value=='') this.value='Farm Contact'" onFocus="if(this.value =='Farm Contact' ) this.value=''">
+                                                            <input type="text" id="farm-zip" name="s" value='Farm Zip Code' onBlur="if(this.value=='') this.value='Farm Zip Code'" onFocus="if(this.value =='Farm Zip Code' ) this.value=''">
+                                                        </form>
+                                                        <div class="btn-group" role="group" aria-label="...">
+                                                            <button id="farmerSubmit" type="button" class="btn btn-success FARMER">Create Farm</button>
+                                                        </div>
+
+                                                        <br/>
+                                                        <br/>
+                                                        <br/>
+                                                        <br/>
+                                                        <form id="productForm" class="hidden">
+                                                            <h2>Product Details</h2>
+                                                            <input type="text" id="product-name" name="s" value='Product Name' onBlur="if(this.value=='') this.value='Product Name'"
+                                                                onFocus="if(this.value =='Product Name' ) this.value=''">
+                                                            <input type="text" id="product-description" name="s" value='Product Description' onBlur="if(this.value=='') this.value='Product Description'"
+                                                                onFocus="if(this.value =='Product Description' ) this.value=''">
+                                                            <div>
+                                                                <select id="product-type">
+                                                                    <option value="">Select Product Category</option>
+                                                                    <option value="new">New Product Type</option>
+                                                                </select>
+                                                            </div>
+
+                                                        </form>
+                                                        <h3 id="successMessage"></h3>
+
+                                                        <div class="btn-group" role="group" aria-label="...">
+                                                            <button id="productSubmit" type="button" class="btn btn-success hidden">Add Product</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clearfix" id="inventory">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="line1"></div>
+
+
+                                    <div class="span3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="span12">
+                            <div class="bot clearfix">
+                                <div class="bot1">
+                                    <div class="menu_bot">
+                                        <ul id="menu_bot" class="clearfix">
+                                            <li>
+                                                <a href="/">Home</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="bot2 clearfix">
+                                    <div class="search-form-wrapper clearfix">
+                                        <form id="search-form" action="search.php" method="GET" accept-charset="utf-8" class="navbar-form">
+                                            <input type="text" name="s" value='Search' onBlur="if(this.value=='') this.value='Search'" onFocus="if(this.value =='Search' ) this.value=''">
+                                            <a href="#" onClick="document.getElementById('search-form').submit()"></a>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="copyright">Copyright © 2018. All rights reserved.</div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+</body>
+
+</html>
